@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo pip install conan
+sudo apt-get update
 sudo apt-get -y install cmake
+sudo apt-get upgrade cmake
 cd ..
 rm -r build
 rm -r install
